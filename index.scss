@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding-left: 0.5rem;
+}
+
+.jumbotron{
+  display: flex;
+  text-align: center;
+  background: #ccc;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  strong {
+    margin-right: 1.5rem;
+  }
+}
