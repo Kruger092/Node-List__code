@@ -16,7 +16,7 @@ function App() {
           <div className="container pt-4">
             <Alert />
             <Switch>
-              <Route path={'/React__Note-List/'} exact component={Home}/>
+              <Route path={'/'} exact component={Home}/>
               <Route path={'/about'} component={About}/>
             </Switch>
           </div>
